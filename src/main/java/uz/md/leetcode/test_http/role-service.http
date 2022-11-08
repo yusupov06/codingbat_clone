@@ -1,0 +1,20 @@
+###
+POST http://localhost:9091/api/role/api/role/add
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92QGdtYWlsLmNvbSIsImlhdCI6MTY2NzkzMDg0MCwiZXhwIjoxNjY4MDE3MjQwfQ.TTqZdKQz8JcmBT3EedETzQWL1o-8mUifkuu8b1KqBBVF1SXSvZ8vHhgGgeyIrOPVwFnTBVvqGAiCtanc77McAA
+Content-Type: application/json
+
+{
+  "name": "ADD_PROBLEM",
+  "description": " add problem "
+}
+
+###
+DELETE http://localhost/api/role/4
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92QGdtYWlsLmNvbSIsImlhdCI6MTY2NjQzOTA2NCwiZXhwIjoxNjY2NTI1NDY0fQ.MZ-loQe_FiY6OCQUoxnb-eyBQ5ZrrVMGRBCw5Pz90MV2No6TJMm2xNoZPEfBiB4cKam5_cyyi3125CsaLMfqZw
+
+###
+GET http://localhost/api/role/api/role/get/1
+
+
+###
+GET http://localhost/api/role/api/role/get/all

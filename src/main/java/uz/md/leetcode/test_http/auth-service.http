@@ -1,0 +1,19 @@
+
+###
+POST http://localhost:9091/api/auth/sign-in
+Content-Type: application/json
+
+{
+  "email": "yusupov@gmail.com",
+  "password": "root"
+}
+
+
+###
+POST http://localhost:9091/api/auth/sign-up
+Content-Type: application/json
+
+{
+  "email": "yusupovforwin@gmail.com",
+  "password": "root"
+}

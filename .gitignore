@@ -11,3 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 !/HELP.md
 !/Leetcode.iml
+/mvnw
+/mvnw.cmd

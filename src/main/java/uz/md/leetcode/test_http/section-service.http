@@ -1,0 +1,36 @@
+###
+POST http://localhost:9091/api/v1/section/add
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92QGdtYWlsLmNvbSIsImlhdCI6MTY2NjQ1NTM0NCwiZXhwIjoxNjY2NTQxNzQ0fQ.bLH2tLxJzcxUBHXgTFk_0RdCSUcLpQ5S9V1XNi59CPfzK3AqqzrBCBqincbsvvb4DzCPvWaZxeVKrmPP9QYs_g
+Content-Type: application/json
+
+{
+  "title": "String",
+  "description": " Problems about string",
+  "maxRate": 100,
+  "languageId": 1
+}
+
+###
+POST http://localhost:9091/api/v1/section/list
+
+###
+GET http://localhost:9091/api/v1/section/get/3
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92Zm9yd2luQGdtYWlsLmNvbSIsImlhdCI6MTY2NTQyMzIwNiwiZXhwIjoxNjY1NDIzMzI2fQ.CgohnQrB-sJi--22elsyjkuHNrxTwle3cMgBmbVRJUd3NQSEQ_MTuVJ5INuZWOep02Y1voWhMsqdQkEgXf7n7w
+
+###
+POST http://localhost:9091/api/v1/section/update
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92Zm9yd2luQGdtYWlsLmNvbSIsImlhdCI6MTY2NTUxNDA0NywiZXhwIjoxNjY1NTE1ODQ3fQ._y2Uo4xVPoOTDV6wo0uX_4z_OXSYqwRObCE59fi15OvgsRYMXdctQ7uj-gOVdgJJUg3T851iMMrFXvmjU7Hsxw
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "Arrays",
+  "url": "arrays",
+  "description": " desc ",
+  "maxRate": 50,
+  "languageId": 2
+}
+
+###
+GET http://localhost:9091/api/v1/section/delete/3
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5dXN1cG92Zm9yd2luQGdtYWlsLmNvbSIsImlhdCI6MTY2NTQyMzc3OSwiZXhwIjoxNjY1NDI1NTc5fQ.k4pp-yaWfJkTPoh2xo9ScCqclizjBmwH-rk_Ef1DssQM7i2AtBAARhZsBgJJBrI19p-Y_WetF4Jnmiy-wKI-Mw
