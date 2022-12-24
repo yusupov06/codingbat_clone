@@ -1,2 +1,2 @@
-# leetcode_clone
+# codingbat_clone
 # this project is in progress
